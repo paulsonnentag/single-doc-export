@@ -1,0 +1,21 @@
+{
+  "name": "export-tool",
+  "version": "1.0.0",
+  "main": "export.ts",
+  "type": "module",
+  "bin": {
+    "export-tool": "./export.ts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC", 
+  "description": "",
+  "dependencies": {
+    "@automerge/automerge-repo": "^1.2.1",
+    "@automerge/automerge-repo-network-websocket": "^1.2.1",
+    "isbinaryfile": "^5.0.4",
+    "istextorbinary": "^9.5.0"
+  }
+}
